@@ -1,32 +1,43 @@
-# 티스토리 목차 생성기(TTG) 스타일
+# 티스토리 목차 생성기(TTG) 스타일 안내
 
-크롬 익스텐션 "티스토리 목차 생성기(TTG)" 이하 "TTG"
+크롬 익스텐션 **"티스토리 목차 생성기(TTG)"**(이하 **TTG**)를 사용하여 생성된 목차에 적용할 수 있는 스타일을 소개합니다.
 
-TTG로 생성된 목차에 사용 할 수 있는 스타일 입니다. 스타일은 동일 하지만 기본 스타일은 "닫기/펼치기"는 적용되지 않습니다.
+TTG는 간단한 기본 스타일과 함께, 목차를 **닫기/펼치기**할 수 있는 토글 스타일도 지원합니다.
 
 ![티스토리 목차 생성기(TTG)](images/ts-toc.webp)
 
-1. 기본 스타일(ts-toc-basic.css)
-2. 토글 스타일(ts-toc-toggle.css),(목차 닫기/펼치기)
+## 제공 스타일
+
+1. **기본 스타일** (`ts-toc-basic.css`): 단순한 목차 디자인 (닫기/펼치기 기능 미포함).
+2. **토글 스타일** (`ts-toc-toggle.css`): 닫기/펼치기 기능을 포함한 목차 디자인.
+
+---
 
 ## 스타일 적용 방법
 
-티스토리 스킨 편집 -> HTML로 접속해 head태그 안에 아래 URL을  넣어 줍니다.
+1. **티스토리 스킨 편집** > **HTML 편집**으로 이동합니다.
+2. `head` 태그 내부에 아래 코드를 추가합니다.
 
-**기본스타일**  
+### 1. 기본 스타일 적용
+
+아래 코드를 복사하여 붙여 넣습니다:
+
 ```html
-<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jioscon/ttg@main/styles/ts-toc-basic.min.css">
 
-</head>
 ```
 
-토글 스타일은 자바스트립트 파일도 같이 넣어 줍니다.
+### 2. 토글 스타일 적용
 
-**토글 스타일**  
+토글 스타일을 사용하려면, 자바스크립트 파일도 함께 추가해야 합니다:
+
 ```html
-<head>
-
-</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jioscon/ttg@main/styles/ts-toc-toggle.min.css">
+<script src="https://cdn.jsdelivr.net/gh/jioscon/ttg@main/scripts/ts-toc-toggle.min.js" defer></script>
 ```
 
+---
 
+## 다른 적용 방법
+
+필요한 코드 파일을 복사하여 티스토리에 저장하거나, HTML 또는 CSS에 직접 추가하여 사용할 수 있습니다.
