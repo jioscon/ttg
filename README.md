@@ -73,3 +73,7 @@ TTG에서 설정 할 수 있는 값
   </nav>
 </div>
 ```
+
+## 더 많은 정보
+
+[티스토리 목차 생성기(TTG) 소개](https://jioscon.com/ttg/)
