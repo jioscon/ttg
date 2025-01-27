@@ -14,10 +14,10 @@ html {
 }
 
 /* TOC가 닫혀있는 경우 */
-.ts-toc-wrapper[data-toc=close] {
+.ts-toc-wrapper[data-ts-toc=close] {
   border: 0;
 }
-.ts-toc-wrapper[data-toc=close] ol, .ts-toc-wrapper[data-toc=close] ul {
+.ts-toc-wrapper[data-ts-toc=close] ol, .ts-toc-wrapper[data-ts-toc=close] ul {
   margin: 0;
   max-height: 0;
   visibility: hidden;
@@ -26,10 +26,10 @@ html {
 
 /* 모바일에서 닫힘 */
 @media (max-width: 575.98px) {
-  .ts-toc-wrapper[data-toc=close-mobile] {
+  .ts-toc-wrapper[data-ts-toc=close-mobile] {
     border: 0;
   }
-  .ts-toc-wrapper[data-toc=close-mobile] ol, .ts-toc-wrapper[data-toc=close-mobile] ul {
+  .ts-toc-wrapper[data-ts-toc=close-mobile] ol, .ts-toc-wrapper[data-ts-toc=close-mobile] ul {
     margin: 0;
     max-height: 0;
     visibility: hidden;

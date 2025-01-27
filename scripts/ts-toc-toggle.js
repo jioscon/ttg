@@ -13,10 +13,10 @@
      * 모바일에서만(close-mobile) close인 경우 데스크탑에서는 open
      */
     function changeTocState(isDesktop) {
-      const currentState = tocWrapper.getAttribute('data-toc');
+      const currentState = tocWrapper.getAttribute('data-ts-toc');
       if (isDesktop) {
         tocWrapper.setAttribute(
-          'data-toc',
+          'data-ts-toc',
           currentState === 'close-mobile' ? 'open' : currentState
         );
       }
@@ -27,9 +27,9 @@
      * TOC 토글 기능
      */
     function toggleToc() {
-      const currentState = tocWrapper.getAttribute('data-toc');
+      const currentState = tocWrapper.getAttribute('data-ts-toc');
       const isOpen = currentState === 'open';
-      tocWrapper.setAttribute('data-toc', isOpen ? 'close' : 'open');
+      tocWrapper.setAttribute('data-ts-toc', isOpen ? 'close' : 'open');
     }
     tocHeader.addEventListener('click', toggleToc);
   });

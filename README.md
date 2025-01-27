@@ -56,7 +56,7 @@ TTG에서 설정 할 수 있는 값
 3. data-toc 값 : "open", "close", "close-mobile"
 
 ```html
-<div class="ts-toc-wrapper" data-toc="open">
+<div class="ts-toc-wrapper" data-ts-toc="open">
   <div class="ts-toc-header">
   <h2 class="ts-toc-title">목차</h2>
   </div>
