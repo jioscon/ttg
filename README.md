@@ -53,7 +53,7 @@ TTG에서 설정 할 수 있는 값
 1. 목차 제목 : 입력 값
 2. 제목 태그 : h2, h3, h4 까지만 목차 생성
 2. 리스트 : ol, ul
-3. data-toc 값 : "open", "close", "close-mobile"
+3. data-ts-toc 값 : "open", "close", "close-mobile"
 
 ```html
 <div class="ts-toc-wrapper" data-ts-toc="open">
