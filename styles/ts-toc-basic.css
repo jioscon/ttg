@@ -23,7 +23,7 @@ html {
   position: relative;
 }
 .ts-toc-wrapper a {
-  color: var(--ts-toc-list-color);
+  color: var(--ts-toc-list-color) !important;
   text-decoration: none !important;
   transition: color 0.2s ease;
   display: inline-block;
