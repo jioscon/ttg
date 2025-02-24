@@ -56,7 +56,7 @@ html {
   padding: 2px 0;
 }
 .ts-toc-wrapper a:hover {
-  color: var(--ts-toc-list-hover-color);
+  color: var(--ts-toc-list-hover-color) !important;
 }
 .ts-toc-wrapper .ts-toc-header {
   position: absolute;
