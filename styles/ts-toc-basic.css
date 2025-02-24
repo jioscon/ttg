@@ -14,7 +14,7 @@ html {
 }
 
 .ts-toc-wrapper {
-  margin: 40px 0;
+  margin: 40px 0 20px 0;
   padding: 0 20px 1px;
   font-size: var(--ts-toc-font-size);
   color: var(--ts-toc-font-color);
@@ -24,7 +24,7 @@ html {
 }
 .ts-toc-wrapper a {
   color: var(--ts-toc-list-color);
-  text-decoration: none;
+  text-decoration: none !important;
   transition: color 0.2s ease;
   display: inline-block;
   padding: 2px 0;
@@ -46,17 +46,18 @@ html {
 }
 .ts-toc-wrapper ol, .ts-toc-wrapper ul {
   list-style: none !important;
-  padding-left: 0;
-  margin: 36px 0 16px 0;
+  padding: 0 !important;
+  margin: 36px 0 16px 0 !important;
   overflow: hidden;
 }
 .ts-toc-wrapper ol li, .ts-toc-wrapper ul li {
-  margin: 0;
+  margin: 0 !important;
   list-style: none !important;
+  text-indent: 0 !important;
 }
 .ts-toc-wrapper ol ol, .ts-toc-wrapper ol ul, .ts-toc-wrapper ul ol, .ts-toc-wrapper ul ul {
-  margin: 0;
-  padding-left: 20px;
+  margin: 0 !important;
+  padding-left: 20px !important;
 }
 .ts-toc-wrapper ol {
   counter-reset: item;
