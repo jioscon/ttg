@@ -64,13 +64,14 @@ html {
   position: absolute;
   top: -20px;
   left: 30px;
-  background-color: var(--ts-toc-background-color);
-  border: 1px solid var(--ts-toc-border-color);
   cursor: pointer;
 }
 .ts-toc-wrapper .ts-toc-header .ts-toc-title {
   margin: 0 !important;
   padding: 8px 16px;
+  background-color: var(--ts-toc-background-color);
+  border: 1px solid var(--ts-toc-border-color);
+  color: var(--ts-toc-font-color);
   font-size: var(--ts-toc-title-font-size) !important;
 }
 .ts-toc-wrapper ol, .ts-toc-wrapper ul {
